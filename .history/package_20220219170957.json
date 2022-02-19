@@ -29,12 +29,16 @@
   "dependencies": {
     "electron-squirrel-startup": "^1.0.0"
   },
+  "build": {
+    "mac": {
+      "icon": "./favicon.ico"
+    }
+  },
   "config": {
+    
     "forge": {
-      "packagerConfig": {
-        "name": "admin-screen-app",
-        "icon": "256.icns"
-      },
+      "packagerConfig": {},
+      
       "makers": [
         {
           "name": "@electron-forge/maker-squirrel",

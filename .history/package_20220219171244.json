@@ -33,7 +33,7 @@
     "forge": {
       "packagerConfig": {
         "name": "admin-screen-app",
-        "icon": "256.icns"
+        "icon": "./favicon.ico"
       },
       "makers": [
         {

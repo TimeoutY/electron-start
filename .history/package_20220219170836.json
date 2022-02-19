@@ -31,9 +31,11 @@
   },
   "config": {
     "forge": {
-      "packagerConfig": {
-        "name": "admin-screen-app",
-        "icon": "256.icns"
+      "packagerConfig": {},
+      "build": {
+        "mac": {
+          "icon": "./favicon.ico"
+        }
       },
       "makers": [
         {

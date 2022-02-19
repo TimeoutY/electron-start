@@ -31,10 +31,7 @@
   },
   "config": {
     "forge": {
-      "packagerConfig": {
-        "name": "admin-screen-app",
-        "icon": "256.icns"
-      },
+      "packagerConfig": {},
       "makers": [
         {
           "name": "@electron-forge/maker-squirrel",
@@ -45,7 +42,7 @@
         {
           "name": "@electron-forge/maker-zip",
           "platforms": [
-            "darwin","win32"
+            "darwin, win32s"
           ]
         },
         {

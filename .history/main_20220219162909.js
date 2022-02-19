@@ -13,7 +13,7 @@ function createWindow() {
       preload: path.join(__dirname, 'preload.js')
     },
     show: false,
-    icon: 'favicon.ico'
+    icon: path.join(__dirname, 'favicon.ico')
   })
 
 
